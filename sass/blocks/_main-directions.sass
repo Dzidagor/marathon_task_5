@@ -1,0 +1,52 @@
+.main-directions
+  background: $accent-brown
+  background-image: url(../img/main-directions/bg.jpg)
+  // .main-directions__wrapper
+  &__wrapper
+    padding-top: 32px
+    padding-bottom: 50px
+  // .main-directions__title
+  &__title
+    font-family: 'Roboto'
+    font-style: normal
+    font-weight: 500
+    font-size: 36px
+    line-height: 130%
+    text-align: center
+    color: $light
+    margin-bottom: 52px
+
+  // .main-directions__plate-wrapper
+  &__plate-wrapper
+    display: grid
+    grid-template-columns: repeat(4, 1fr)
+    grid-template-rows: repeat(2, 1fr)
+    gap: 55px
+
+.direction-plates
+  // .direction-plates__item
+  &__item
+    width: 235px
+    height: 165px
+  // .direction-plates__icon-wrapper
+  &__icon-wrapper
+    display: flex
+    justify-content: center
+    align-items: center
+    height: 85px
+    width: 85px
+    border: 1px solid $light
+    border-radius: 50%
+    margin-bottom: 15px
+  // .direction-plates__icon
+  &__icon
+
+  // .direction-plates__text
+  &__text
+    display: block
+    color: $light
+    font-family: 'Roboto'
+    font-weight: 400
+    font-size: 16px
+    line-height: 130%
+

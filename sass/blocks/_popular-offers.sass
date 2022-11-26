@@ -1,0 +1,153 @@
+.popular-offers
+  // .popular-offers__container
+  &__container
+    padding-top: 100px
+  // .popular-offers__title
+  &__title
+    font-family: 'Roboto'
+    font-weight: 700
+    font-size: 36px
+    line-height: 42px
+    color: $dark
+    text-align: center
+    margin-bottom: 40px
+
+  // .popular-offers__plates
+  &__plates
+    display: grid
+    gap: 32px
+    grid-template-areas: "plate-1 plate-2 plate-3 plate-3" "plate-4 plate-5 plate-3 plate-3" "plate-6 plate-6 plate-7 plate-8" "plate-6 plate-6 plate-9 plate-10"
+  // .popular-offers__item
+  &__item
+    &:nth-of-type(1)
+      grid-area: plate-1
+      .pop-offer-plate__title
+        left: 17px
+      .pop-offer-plate__price
+        left: 16px
+
+    &:nth-of-type(2)
+      grid-area: plate-2
+      .pop-offer-plate__title
+        left: 24px
+      .pop-offer-plate__price
+        left: 24px
+
+    &:nth-of-type(3)
+      grid-area: plate-3
+      .pop-offer-plate__title
+        font-size: 24px
+        left: 29px
+      .pop-offer-plate__price
+        left: 25px
+      .pop-offer-plate__place
+        top: 88px
+        left: 33px
+      .pop-offer-plate__periods
+        top: 124px
+        left: 33px
+
+    &:nth-of-type(4)
+      grid-area: plate-4
+      .pop-offer-plate__title
+        left: 17px
+      .pop-offer-plate__price
+        left: 17px
+
+    &:nth-of-type(5)
+      grid-area: plate-5
+      .pop-offer-plate__title
+        left: 24px
+      .pop-offer-plate__price
+        left: 24px
+
+    &:nth-of-type(6)
+      grid-area: plate-6
+      .pop-offer-plate__title
+        font-size: 24px
+        left: 33px
+      .pop-offer-plate__price
+        left: 25px
+      .pop-offer-plate__place
+        top: 94px
+        left: 33px
+      .pop-offer-plate__periods
+        top: 152px
+        left: 33px
+
+
+    &:nth-of-type(7)
+      grid-area: plate-7
+      .pop-offer-plate__title
+        left: 17px
+      .pop-offer-plate__price
+        left: 17px
+
+    &:nth-of-type(8)
+      grid-area: plate-8
+      .pop-offer-plate__title
+        left: 24px
+      .pop-offer-plate__price
+        left: 24px
+
+    &:nth-of-type(9)
+      grid-area: plate-9
+      .pop-offer-plate__title
+        left: 17px
+      .pop-offer-plate__price
+        left: 17px
+
+    &:nth-of-type(10)
+      grid-area: plate-10
+      .pop-offer-plate__title
+        left: 24px
+      .pop-offer-plate__price
+        left: 24px
+      
+
+.container
+
+.pop-offer-plate
+  position: relative
+  color: $light
+  // .pop-offer-plate__img
+  &__img
+  // .pop-offer-plate__title
+  &__title
+    position: absolute
+    z-index: 1
+    font-family: 'Roboto'
+    font-weight: 500
+    font-size: 18px
+    line-height: 130%
+    top: 16px
+    
+
+  // .pop-offer-plate__price
+  &__price
+    position: absolute
+    z-index: 1
+    bottom: 19px
+    font-family: 'Roboto'
+    font-weight: 700
+    font-size: 16px
+    line-height: 130%
+
+  // .pop-offer-plate__place
+  &__place
+    position: absolute
+    z-index: 1
+    font-family: 'Roboto'
+    font-weight: 400
+    font-size: 16px
+    line-height: 130%
+  // .pop-offer-plate__period
+  &__periods
+    position: absolute
+    z-index: 1
+    font-family: 'Roboto'
+    font-weight: 400
+    font-size: 16px
+    line-height: 130%
+
+

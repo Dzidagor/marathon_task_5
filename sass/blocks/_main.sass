@@ -1,0 +1,122 @@
+.main
+  background: url(../img/main/bg.jpg) no-repeat
+  background-position: -2px -1px
+  height: 100vh
+  width: 100vw
+  // .main__container
+  &__container
+  // .main__header
+  &__header
+    padding-top: 20px
+    display: flex
+    justify-content: space-between
+    align-items: center
+  // .main__navbar
+  &__navbar
+    display: flex
+    justify-content: space-around
+    padding: 27px 0 24px
+  // .main__content
+  &__content
+    position: relative
+    display: flex
+    flex-flow: column
+
+  &__underheader-line
+    margin-top: 5px
+    background: $light
+    opacity: 0.1
+    border: 1px solid $light
+    width: 100%
+
+  &__undernavbar-line
+    opacity: 1
+    background: $light
+    height: 1px
+    width: 100%
+
+.header
+  // .header__logo
+  &__logo
+    display: flex
+    align-items: center
+  // .header__info-block
+  &__info-block
+    display: flex
+    align-items: center
+  // .header__button
+  &__button
+    display: block
+    background: $accent-brown
+    border-radius: 22px
+    font-family: 'Roboto'
+    font-weight: 400
+    font-size: 16px
+    line-height: 130%
+    color: $light
+    padding: 12px 31px
+
+  &__order-text
+    margin-right: 20px
+    color: $light
+    font-family: 'Roboto'
+    font-weight: 700
+    font-size: 16px
+    line-height: 130%
+
+.order
+  // .order__text
+  &__text
+
+.navbar
+  // .navbar__item
+  &__item
+    font-family: 'Roboto'
+    font-weight: 400
+    font-size: 16px
+    line-height: 19px
+    color: $light
+
+
+.main-content
+  // .main-content__title
+  &__title
+    display: block
+    margin-top: 50px
+    margin-bottom: 400px
+    font-family: 'PT Serif'
+    font-weight: 700
+    font-size: 90px
+    line-height: 130%
+    align-self: center
+    color: $dark
+
+  // .main-content__order-block
+  &__order-block
+
+  // .main-content__subtitle
+  &__subtitle
+    display: block
+    font-family: 'Roboto'
+    font-weight: 700
+    font-size: 20px
+    line-height: 140%
+    color: $dark
+    margin-bottom: 20px
+  // .main-content__button
+  &__button
+    display: inline-block
+    background: $accent-brown
+    color: $light
+    border-radius: 30px
+    font-family: 'Roboto'
+    font-weight: 400
+    font-size: 18px
+    line-height: 21px
+    padding: 20px 55px
+  &__button-down
+    position: absolute
+    bottom: -60px
+    left: 50%
+    transform: translateX()(-50%)
+

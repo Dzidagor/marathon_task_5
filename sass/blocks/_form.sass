@@ -1,0 +1,93 @@
+.form
+  background: $bg-grey
+  // .form__block
+  &__block
+    padding: 75px 0
+    display: flex
+    flex-flow: column
+    align-items: center
+  // .form__title
+  &__title
+    font-family: 'Roboto'
+    font-weight: 700
+    font-size: 36px
+    line-height: 130%
+    text-align: center
+    color: $dark
+    margin-bottom: 43px
+  // .form__form-block
+  &__form-block
+    width: 832px
+  // .form__inputs-wrapper
+  &__inputs-wrapper
+    display: grid
+    grid-template-areas: "name phone mail" "textarea textarea textarea"
+    gap: 30px
+    padding-bottom: 67px
+  // .form__name-input
+  &__name-input
+    grid-area: name
+    padding: 11px 14px
+    border: 1px solid $grey
+    font-family: 'Roboto'
+    font-weight: 400
+    font-size: 16px
+    line-height: 130%
+    &::placeholder
+      color: $link-grey
+  // .form__phone-input
+  &__phone-input
+    grid-area: phone
+    padding: 12px 14px
+    border: 1px solid $grey
+    font-family: 'Roboto'
+    font-weight: 400
+    font-size: 16px
+    line-height: 130%
+    &::placeholder
+      color: $link-grey
+  // .form__mail-input
+  &__mail-input
+    grid-area: mail
+    padding: 12px 14px
+    border: 1px solid $grey
+    font-family: 'Roboto'
+    font-weight: 400
+    font-size: 16px
+    line-height: 130%
+    &::placeholder
+      color: $link-grey
+  &__textarea
+    grid-area: textarea
+    padding: 14px
+    border: 1px solid $grey
+    font-family: 'Roboto'
+    font-weight: 400
+    font-size: 16px
+    line-height: 130%
+    &::placeholder
+      color: $link-grey
+  &__agreement-block
+    display: flex
+    justify-content: space-between
+    align-items: center
+  &__button
+    font-family: 'Roboto'
+    font-weight: 400
+    font-size: 18px
+    line-height: 21px
+    text-align: center
+    color: $light
+    background: $accent-brown
+    border-radius: 30px
+    padding: 20px 65px
+    margin-right: 145px
+  &__label-for-agr
+    font-family: 'Roboto'
+    font-weight: 400
+    font-size: 16px
+    line-height: 130%
+    text-decoration-line: underline
+    color: $dark
+.container
+
